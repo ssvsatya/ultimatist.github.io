@@ -25,4 +25,4 @@ Some of the fields and industries I've worked in during my decade of consulting:
 
 ### Contact me
 
-Find me on [LinkedIn](https://www.linkedin.com/in/jbalaban/) and [Twitter](https://www.twitter.com/ultimetis)
+Reach out to me on [LinkedIn](https://www.linkedin.com/in/jbalaban/) and [Twitter](https://www.twitter.com/ultimetis).
