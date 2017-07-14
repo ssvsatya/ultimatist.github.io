@@ -4,12 +4,25 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Welcome!
 
-### More Information
+I'm a data scientist, strategy consultant, and entrepreneur with ten years of private, public, and philanthropic experience. I currently work at [Metis](https://www.thisismetis.com), where I teach business leaders and professionals the art of impact-focused, practical data science.
 
-A place to include any other types of information that you'd like to include about yourself.
+Some of the fields and industries I've worked in during my decade of consulting:
+- Data Science
+- Strategy
+- Analytics
+- Sales
+- Management
+- Marketing and Media
+- Visualization
+- Operations Research
+- Artificial Intelligence
+- Deep Learning
+- Supply Chain
+- Education
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+Find me on [LinkedIn](https://www.linkedin.com/in/jbalaban/) and [Twitter](https://www.twitter.com/ultimetis)
