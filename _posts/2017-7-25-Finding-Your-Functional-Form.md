@@ -64,3 +64,5 @@ When a change in functional form is _not_ justified:
 - To get a better R-squared value. This isn't a contest!
 
 ![](https://giphy.com/gifs/HXNTWmizWfPkk/html5)
+
+Thanks!
