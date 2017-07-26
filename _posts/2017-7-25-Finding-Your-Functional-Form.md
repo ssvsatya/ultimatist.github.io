@@ -65,4 +65,6 @@ When a change in functional form is _not_ justified:
 
 ![contest](https://media.giphy.com/media/HXNTWmizWfPkk/giphy.gif)
 
+![Alt Text](http://i.imgur.com/OUkLi.gif)
+
 Thanks!
