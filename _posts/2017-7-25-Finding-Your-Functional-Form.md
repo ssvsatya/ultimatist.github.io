@@ -18,6 +18,7 @@ Although it's quite tempting to jump straight into a statistical test for normal
 ![kurtosis](http://schaal15.blog.sbc.edu/files/2014/11/kurtosis1.jpg)
 _Credit: whatilearned.wikia.com_
 
+
 - Multimodal distribution
   - More than one mode, or peak
 ![Multimodal](https://prateekvjoshi.files.wordpress.com/2013/06/multimodal.jpg)
