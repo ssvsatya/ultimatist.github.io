@@ -63,6 +63,6 @@ When a change in functional form is _not_ justified:
 - To make your outliers look better. Remember, are what they are (assume correct capture), and shouldn't be tampered with to make your results look better!
 - To get a better R-squared value. This isn't a contest!
 
-![](https://media.giphy.com/media/HXNTWmizWfPkk/giphy.gif)
+![contest](https://media.giphy.com/media/HXNTWmizWfPkk/giphy.gif)
 
 Thanks!
