@@ -16,6 +16,7 @@ Although it's quite tempting to jump straight into a statistical test for normal
 - Extreme kurtosis
   - Tall and thin curve, or short and fat curve
 ![kurtosis](http://schaal15.blog.sbc.edu/files/2014/11/kurtosis1.jpg)
+
 _Credit: whatilearned.wikia.com_
 
 
