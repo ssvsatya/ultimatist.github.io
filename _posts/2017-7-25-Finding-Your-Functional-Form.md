@@ -5,7 +5,7 @@ title: Finding Your Functional Form
 
 As a data science instructor at [Metis](https://thisismetis.com), I'm not surprised how motivated and eager my students are to dive into [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning). After all, data munging and [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) aren't what get me fired up to tackle a new dataset either. For a host of reasons, including prior exposure and interpretability, our curriculum introduces linear regression as the first of many ML methodologies. And, invariably, someone will question what there is to learn that wasn't already covered in the 11th grade exposition on y = mx + b.
 
-Box-Cox Normality Plot. Purpose: Find transformation to normalize data. Many statistical tests and intervals are based on the assumption of normality. The assumption of normality often leads to tests that are simple, mathematically tractable, and powerful compared to tests that do not make the normality assumption.
+
 
 Although it's quite tempting to jump straight into a statistical test for normality of our data, it's critical to get to know our data first by building a visualization first, and checking for these possible red flags:
 
@@ -27,6 +27,9 @@ _Credit: whatilearned.wikia.com_
 \hat{Y}_i = \hat{\beta}_0 + \hat{\beta}_1 X_i + \hat{\epsilon}_i
 \end{equation}
 
+## Enter Box-Cox
+Box-Cox Normality Plot. Purpose: Find transformation to normalize data. Many statistical tests and intervals are based on the assumption of normality. The assumption of normality often leads to tests that are simple, mathematically tractable, and powerful compared to tests that do not make the normality assumption.
+
 Functional Form | Equation (One Feature) | Interpretation
 -----|-------|---------
 Linear|ok|B1 unit change in Y per unit change in X
@@ -40,8 +43,8 @@ Polynomial || B1 + 2B2X change in Y per unit change in X
 
 In the above example, we have a linear time progression, but an exponential growth in H1N1 cases. To simulate linearity, a logarithm transformation with base 2 on Y gives us the best results. So our model's functional form is Log2-Lin.
 
------------
-In summary, we should consider a non-linear functional form in the following scenarios:
+## Checklist
+We should consider a non-linear functional form in the following scenarios:
 
 - The residuals are skewed. Transformation helps generate residuals that are approximately normal.
 - Variance of residuals changes in relation to the values of the dependent variable ([heteroscedasticity](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=14&cad=rja&uact=8&ved=0ahUKEwi71Kjm6KfVAhVM7IMKHTwqByAQFghlMA0&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHeteroscedasticity&usg=AFQjCNE33RI-JSU7FKp2KDZdUo3scXcAyA)).
