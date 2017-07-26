@@ -39,3 +39,28 @@ Polynomial || B1 + 2B2X change in Y per unit change in X
 ![Example of Log2-Lin functional form](https://upload.wikimedia.org/wikipedia/commons/f/f8/Influenza-2009-cases-logarithmic.png)
 
 In the above example, we have a linear time progression, but an exponential growth in H1N1 cases. To simulate linearity, a logarithm transformation with base 2 on Y gives us the best results. So our model's functional form is Log2-Lin.
+
+-----------
+In summary, we should consider a non-linear functional form in the following scenarios:
+
+- The residuals are skewed. Transformation helps generate residuals that are approximately normal.
+- Variance of residuals changes in relation to the values of the dependent variable ([heteroscedasticity](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=14&cad=rja&uact=8&ved=0ahUKEwi71Kjm6KfVAhVM7IMKHTwqByAQFghlMA0&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHeteroscedasticity&usg=AFQjCNE33RI-JSU7FKp2KDZdUo3scXcAyA)).
+- Based on expertise, theory, or best practices: certain relationships are clearly non-linear.
+- To simplify/linearize our model, and reduce polynomial or interaction terms.
+
+
+When to use a logarithm:
+
+- Residuals are positively skewed.
+- Residual variance is directly proportional to the fitted values.
+- When the relationship is close to exponential. Logarithms compress this down to a linear relationship.
+- When an interpretation from the functional form table above is desired: [exponential growth](https://en.wikipedia.org/wiki/Exponential_growth) is present.
+- When Box-Cox dictates a logarithmic transformation will normalize best.
+
+When a change in functional form is _not_ justified:
+
+- To make your sample data look more like population data. Check your sampling methods, then trust your data to naturally exhibit some variation.
+- To make your outliers look better. Remember, are what they are (assume correct capture), and shouldn't be tampered with to make your results look better!
+- To get a better R-squared value. This isn't a contest!
+
+![](https://giphy.com/gifs/HXNTWmizWfPkk/html5)
