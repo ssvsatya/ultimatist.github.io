@@ -24,6 +24,9 @@ _Credit: whatilearned.wikia.com_
   - More than one mode, or peak
 ![Multimodal](https://prateekvjoshi.files.wordpress.com/2013/06/multimodal.jpg)
 
+\begin{equation}
+\hat{Y}_i = \hat{\beta}_0 + \hat{\beta}_1 X_i + \hat{\epsilon}_i
+\end{equation}
 
 Functional Form | Equation (One Feature) | Interpretation
 -----|-------|---------
