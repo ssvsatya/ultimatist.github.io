@@ -3,7 +3,9 @@ layout: post
 title: Finding Your Functional Form
 ---
 
-As a data science instructor at [Metis](https://thisismetis.com), I'm not surprised how motivated and eager my students are to dive into [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning). After all, data munging and [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) aren't what get me fired up to tackle a new dataset either. For a host of reasons, including prior exposure and interpretability, our curriculum introduces linear regression as the first of many ML methodologies. And, invariably, someone will question what there is to learn that wasn't already covered in the 11th grade exposition on $$ y = mx + b $$.
+As a data science instructor at [Metis](https://thisismetis.com), I'm not surprised how motivated and eager my students are to dive into [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning). After all, data munging and [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) aren't what get me fired up to tackle a new dataset either. For a host of reasons, including prior exposure and interpretability, our curriculum introduces linear regression as the first of many ML methodologies. And, invariably, someone will question what there is to learn that wasn't already covered in the 11th grade exposition on
+
+$$ y = mx + b $$
 
 Box-Cox Normality Plot. Purpose: Find transformation to normalize data. Many statistical tests and intervals are based on the assumption of normality. The assumption of normality often leads to tests that are simple, mathematically tractable, and powerful compared to tests that do not make the normality assumption.
 
